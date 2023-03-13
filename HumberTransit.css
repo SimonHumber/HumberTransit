@@ -13,24 +13,22 @@ nav {
     background-color: #F9CC0B;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
+div.navbar {
+    width: 100px;
+    height: 100px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    border: 2px solid black;
 }
 
-li a:hover {
-    background-color: blue;
+div#nav {
+    display: flex;
+    flex-direction: row;
+}
+
+a:hover {
+    background-color: lightyellow;
+}
+
+a {
+    text-decoration: none;
 }
