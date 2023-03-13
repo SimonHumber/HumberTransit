@@ -1,0 +1,14 @@
+header img{
+    width: 200px;
+    height: 140px;
+    float: left;
+}
+
+header {
+    height: 200px;
+    background-color: #0C1D36;
+}
+
+nav {
+    background-color: #F9CC0B;
+}
