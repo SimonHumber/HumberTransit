@@ -32,3 +32,8 @@ a:hover {
 a {
     text-decoration: none;
 }
+
+footer {
+    background-color: #0C1D36;
+    text-align: center;
+}
