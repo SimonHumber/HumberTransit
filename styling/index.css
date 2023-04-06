@@ -4,13 +4,14 @@ html {
 
 /* header formatting */
 header img {
-  width: 200px;
-  height: 140px;
+  width: 140px;
+  height: 90px;
   float: left;
+  padding-top: 20px;
 }
 
 header {
-  height: 200px;
+  height: 150px;
   background-color: #0c1d36;
   margin: 0;
 }
@@ -19,42 +20,40 @@ body {
   margin: 0;
 }
 
-header h1 {
-  margin-top: 0px;
-}
-
 /* nav bar formatting */
+
 nav {
   height: 50px;
 }
 
-ul {
+ul#navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #f9cc0b;
-  position: fixed;
   width: 100%;
 }
 
-li {
+li.nav {
   float: left;
   width: 25%;
 }
 
-li a {
+li.nav a {
   display: block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-weight: bolder;
+  color: #0c1d36;
 }
 
-li a:hover {
+li.nav a:hover {
   background-color: lightyellow;
   text-decoration: underline;
 }
+
 iframe {
   margin-top: 100px;
 }
