@@ -1,0 +1,145 @@
+html {
+    font-family: "Nunito Sans", sans-serif;
+    background-image: url(/images/bckr.png);
+    background-size: cover;
+  }
+  
+  /* header formatting */
+  header h1{
+
+    color: #f9cc0b;
+    padding-top: 50px;
+  }
+
+  header img {
+    width: 140px;
+    height: 90px;
+    float: left;
+    padding-top: 20px;
+  }
+  
+  header {
+    height: 150px;
+    background-color: #0c1d36;
+    margin: 0;
+  }
+
+  section h1 {
+
+        border-bottom: 1px solid black;
+        padding-bottom: 5px;
+
+  }
+  
+  body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-right: #0c1d36 2px solid;
+    border-left: #0c1d36 2px solid;
+
+  }
+
+  p, h1, h4 {
+
+    margin-left: 90px;
+    margin-right: 100px;
+  }
+
+  form {
+
+    width: 100px;
+    margin-left: 80px;
+  }
+
+  #Form {
+
+    float: right;
+    width: 325px;
+    margin-right: 120px;
+
+    color: #f9cc0b;
+    background-color: #0c1d36;
+
+  }
+
+  #Form h4 {
+
+    margin-left: 15px;
+    margin-right: -10px;
+  }
+
+  #btn {
+    margin-top: 10px;
+  }
+
+
+  #contact {
+
+    margin-right: 450px;
+    margin-top: 55px;
+  }
+
+  section img {
+    margin-top: -3px;
+    border-bottom: #0c1d36 3px solid;
+
+  }
+
+
+  a {
+    
+    color: #0c1d36;
+    font-weight: bold;
+  }
+
+  footer {
+
+    border-top: #0c1d36 2px solid;
+    border-bottom: #0c1d36 2px solid;
+    background-color: #0c1d36;
+    color: #f9cc0b;
+
+    
+    padding-left: 350px;
+    
+  }
+  
+  /* nav bar formatting */
+  
+  nav {
+    height: 50px;
+  }
+  
+  ul#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f9cc0b;
+    width: 100%;
+  }
+  
+  li.nav {
+    float: left;
+    width: 25%;
+  }
+  
+  li.nav a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #0c1d36;
+  }
+  
+  li.nav a:hover {
+    background-color: lightyellow;
+    text-decoration: underline;
+  }
+  
+  iframe {
+    margin-top: 100px;
+  }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <meta name="author" content="Simon, Sagi, George" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Humber Transit" />
+    <meta name="keywords" content="HTML, CSS, Web Design" />
+    <link rel="stylesheet" href="styling/About.css" type="text/css" />
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    
+    <script src="Jscript/AbsForm.js" defer></script>
+  </head>
+
+  <body>
+    <!-- common site elements -->
+    <header>
+      <img src="/HumberColours/png/logo-no-background.png" alt="" />
+      <h1>About Us</h1>
+    </header>
+
+    <nav>
+      <ul id="navbar">
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="Routes.html">Routes</a></li>
+        <li class="nav"><a href="#">Fares</a></li>
+        <li class="nav"><a href="About.html">About Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- page specific elements -->
+    <main>
+        <section>
+            <img src="images/img2.jpg" alt="cat" width="1000">
+            <h1>Who Are We?</h1>
+
+            <p>At Humber Tranist, we are a young team of 3 software developers looking
+                to help our local community. We are Sagi, Simon and George and we intent
+                to continue to work on Humber Transit for as long as it sevrves the community.
+                In the future we also hope to reach out to regions outside of the GTA and
+                provide more services with the upcoming LRT line.
+            </p>
+
+        </section>
+        <section>
+            <h1> Why Did We Start Humber Transit?</h1>
+
+            <p>At Humber Transit, we belived that there needed to be 
+                a better way to get to and from the college campus. 
+                with so many different bus networks running to the 
+                terminal, it can become tedious to keep checking different websites
+                when it comes to route scheduling. With over 83,000 combined full-time
+                and part-time students studying at Humber, there needs to be a more
+                convenient option. 
+
+            </p>
+
+        </section>
+        <section id="Form">
+
+            <h4>Sign Up for our email service to recive updates!</h4>
+            <form action="">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname">
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+
+                <input id="btn" type="button" value="Sign Up" onclick="superForm();"/>
+            </form>
+            <br>
+
+        </section>
+        <section id="contact">
+            <h1>Contact information</h1>
+            <h4>Listed below is relevant contact information:</h4>
+
+            <p>Phone: 416-324-2933</p>
+            <p>Email: HumberTranist@Humbermail.ca</p>
+            <p>Linkedin: <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=A
+              QGu57xPyUqNLAAAAYegFTSIqGNzBGILsbziXiDxOwF693XPI1wy9_aRzRWRuGLisexNOJRO7P34bPoVnMgwDt
+              hofCxhfvQ1Y8p1KHtk36fdE56ya0y5ZFqUcr4PcBCRIfYj6EA=&original_referer=&sessionRedirect=h
+              ttps%3A%2F%2Fca.linkedin.com%2Fcompany%2Fttc">Enter Here</a> </p>
+
+        </section>
+    </main>
+    <br>
+    <footer>
+        <h3> Humber Transit, &copy; Copyright 2023</h3>
+    </footer>
+  </body>
+</html>
