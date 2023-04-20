@@ -8,11 +8,7 @@
     <meta name="keywords" content="HTML, CSS, Web Design" />
     <link rel="stylesheet" href="styling/index.css" type="text/css" />
     <link rel="icon" href="logo.png" type="image/x-icon" />
-    <script src="HumberTransit.js" defer></script>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">     -->
-    <!-- embed google maps -->
+    <script src="scripts/index.js" defer></script>
     <!-- slideshow images -->
   </head>
 
@@ -33,15 +29,55 @@
 
     <!-- page specific elements -->
     <main>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.1217310256393!2d-79.60753568444277!3d43.72879797911882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3bad2b6a50e5%3A0xf410fa744688b971!2sHumber%20College%20Bus%20Terminal!5e0!3m2!1sen!2sca!4v1680050545957!5m2!1sen!2sca"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="HumberColours/images/zainahmed.jpg" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img
+            src="HumberColours/images/justin-ziadeh-W-zR32h9Bk0-unsplash.jpg"
+          />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+      <section>
+        <div id="flexcontainer">
+          <div class="flexitem" id="wheeltrans">
+            Wheeltrans can help you meet all your accessibility needs.
+            <div class="flexbutton"><a href="#">Learn More</a></div>
+          </div>
+          <div class="flexitem" id="lrt">
+            The new Finch LRT is almost completed!
+            <div class="flexbutton"><a href="#">Learn More</a></div>
+          </div>
+          <div class="flexitem2" id="security">
+            Learn more about how the City of Toronto is keeping you safe.
+            <div class="flexbutton"><a href="">Learn More</a></div>
+          </div>
+          <div class="flexitem2" id="covid">
+            Living together in a post-pandemic world.
+            <div class="flexbutton"><a href="#">Learn More</a></div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <p>&copy; Masha Transit, Copyright 2023</p>
+    </footer>
   </body>
 </html>

@@ -4,14 +4,14 @@ html {
 
 /* header formatting */
 header img {
-  width: 140px;
-  height: 90px;
+  width: 70px;
+  height: 45px;
   float: left;
   padding-top: 20px;
 }
 
 header {
-  height: 150px;
+  height: 80px;
   background-color: #0c1d36;
   margin: 0;
 }
