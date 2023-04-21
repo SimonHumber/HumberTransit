@@ -4,16 +4,23 @@ html {
 
 /* header formatting */
 header img {
-  width: 140px;
-  height: 90px;
+  width: 70px;
+  height: 45px;
   float: left;
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-left: 20px;
 }
 
 header {
-  height: 150px;
+  height: 75px;
   background-color: #0c1d36;
   margin: 0;
+}
+
+header h1 {
+  margin-top: 0px;
+  padding-top: 15px;
+  color: #f9cc0b;
 }
 
 body {
@@ -78,7 +85,7 @@ li.yrt a {
   text-align: center;
   text-decoration: none;
   padding-top: 30px;
-  color: blue;
+  color: #0c1d36;
 }
 li.ttc a:hover,
 li.bt a:hover,
