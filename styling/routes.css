@@ -128,3 +128,11 @@ span.yrt {
   width: 500px;
   height: 400px;
 }
+footer {
+  margin-top: 30px;
+  background-color: #0c1d36;
+  color: #f9cc0b;
+  height: 70px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bolder;

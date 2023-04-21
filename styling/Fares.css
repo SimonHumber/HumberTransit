@@ -19,7 +19,7 @@ header {
 h1 {
   color: #0c1d36;
 }
-h3 {
+h3#fares {
   color: #f9cc0b;
   padding-top: 15px;
   font-size: 36px;
@@ -68,4 +68,18 @@ li.nav a:hover {
 
 iframe {
   margin-top: 100px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #0c1d36;
+  color: #f9cc0b;
+  height: 70px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+footer h3 {
+  text-align: center;
+  padding-right: 250px;
 }
