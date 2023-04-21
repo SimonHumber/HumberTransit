@@ -160,6 +160,7 @@ li.nav a:hover {
 }
 .flexitem,
 .flexitem2 {
+  border-radius: 25px;
   background: #f9cc0b;
   height: 300px;
   width: 300px;
@@ -171,7 +172,7 @@ li.nav a:hover {
 .flexbutton {
   position: absolute;
   bottom: 10%;
-  left: 25%;
+  left: 30%;
 }
 .flexbutton a {
   padding: 20px;
