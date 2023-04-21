@@ -1,0 +1,118 @@
+html {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* header formatting */
+header img {
+  width: 140px;
+  height: 90px;
+  float: left;
+  padding-top: 20px;
+}
+
+header {
+  height: 150px;
+  background-color: #0c1d36;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* nav bar formatting */
+
+nav {
+  height: 50px;
+}
+
+ul#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f9cc0b;
+  width: 100%;
+}
+
+li.nav {
+  float: left;
+  width: 25%;
+}
+
+li.nav a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #0c1d36;
+}
+
+li.nav a:hover {
+  background-color: lightyellow;
+  text-decoration: underline;
+}
+
+/* routes list formatting */
+
+ul#flexroutes {
+  list-style-type: none;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+li.ttc,
+li.bt,
+li.miway,
+li.yrt {
+  border-top: 1px solid black;
+  font-size: 25px;
+}
+li.ttc a,
+li.bt a,
+li.miway a,
+li.yrt a {
+  height: 50px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 30px;
+  color: blue;
+}
+li.ttc a:hover,
+li.bt a:hover,
+li.miway a:hover,
+li.yrt a:hover {
+  background-color: lightyellow;
+}
+li.ttc span,
+li.bt span,
+li.miway span,
+li.yrt span {
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  padding-top: 7px;
+}
+span.ttc {
+  background-color: red;
+}
+span.zum,
+span.bt {
+  background-color: #0f7db5;
+}
+span.miway {
+  background-color: #f98621;
+}
+span.yrt {
+  background-color: #006ec7;
+}
+
+/* google maps formatting*/
+iframe {
+  float: left;
+  margin-top: 30px;
+  width: 500px;
+  height: 400px;
+}

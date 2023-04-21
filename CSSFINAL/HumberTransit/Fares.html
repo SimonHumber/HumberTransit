@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <meta name="author" content="Simon, Sagi, George" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Humber Transit" />
+    <meta name="keywords" content="HTML, CSS, Web Design" />
+    <link rel="stylesheet" href="styling/Fares.css" type="text/css" />
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+
+    <!--script src="Jscript/AbsForm.js" defer></script-->
+</head>
+
+<!-- common site elements -->
+<header>
+    <img src="HumberColours/png/logo-no-background.png" alt="" />
+    <h3>Fares</h3>
+</header>
+
+<nav>
+    <ul id="navbar">
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="Routes.html">Routes</a></li>
+        <li class="nav"><a href="Fares.html">Fares</a></li>
+        <li class="nav"><a href="About.html">About Us</a></li>
+    </ul>
+</nav>
+
+
+<head>
+    <!-- Title + Quick Info-->
+    <title>Transit Fares</title>
+    <style>
+        body {
+            font-family: "Nunito Sans", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0px;
+        }
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 22px;
+        }
+       footer{
+        text-align: center;
+       }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 60%;
+            max-width: 800px;
+            min-width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #F9CC0B;
+            color: #fff;
+            padding: 10px;
+            text-align: left;
+            font-weight: normal;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        .transit-section {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin: 20px auto;
+            max-width: 800px;
+            min-width: 300px;
+            overflow: hidden;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+
+            border-top: #0c1d36 2px solid;
+            border-bottom: #0c1d36 2px solid;
+            background-color: #0c1d36;
+            color: #f9cc0b;
+
+
+            padding-left: 350px;
+
+        }
+    </style>
+</head>
+<!--Information Tables-->
+
+<body>
+    <h1>Transit Fares</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Transit Option</th>
+                <th>Base Fare</th>
+                <th>Fare Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#TTC">TTC</a></td>
+                <td>$3.35</td>
+                <td>Single Fare With Presto Card</td>
+            </tr>
+            <tr>
+                <td><a href="#Brampton Transit">Brampton Transit</a></td>
+                <td>$3.10</td>
+                <td>Single Fare With Presto Card</td>
+            </tr>
+            <tr>
+                <td><a href="#Miway">Miway</a></td>
+                <td>$3.10</td>
+                <td>Single Fare With Presto Card</td>
+            </tr>
+            <tr>
+                <td><a href="#YRT">YRT</a></td>
+                <td>$3.88</td>
+                <td>Single Fare With Presto Card</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    </tr>
+    <div class="transit-section" id="TTC">
+        <h2>TTC Fares</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Passenger Type</th>
+                    <th>Fare</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adults</td>
+                    <td>$3.35</td>
+                </tr>
+                <tr>
+                    <td>Children </td>
+                    <td>$2.40</td>
+                </tr>
+                <tr>
+                    <td>Seniors</td>
+                    <td>$2.30</td>
+                </tr>
+            </tbody>
+            
+        </table>
+        <br>
+        <a href="https://www.ttc.ca/Fares-and-passes">For more information about TTC Fares click here</a>
+    </div>
+
+    <br>
+
+    </tr>
+    <div class="transit-section" id="Brampton Transit">
+        <h2>Brampton Transit Fares</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Passenger Type</th>
+                    <th>Fare</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adults</td>
+                    <td>$3.10</td>
+                </tr>
+                <tr>
+                    <td>Children</td>
+                    <td>$2.55</td>
+                </tr>
+                <tr>
+                    <td>Seniors</td>
+                    <td>$1.60</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <a href="https://www.brampton.ca/EN/residents/transit/Fares/Pages/TransitFares.aspx">For more information about Brampton Transit Fares click here</a>
+    </div>
+
+    <br>
+
+    </tr>
+    <div class="transit-section" id="Miway">
+        <h2>Miway Fares</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Passenger Type</th>
+                    <th>Fare</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adults</td>
+                    <td>$3.10</td>
+                </tr>
+                <tr>
+                    <td>Children</td>
+                    <td>$2.35</td>
+                </tr>
+                <tr>
+                    <td>Seniors</td>
+                    <td>$2.10</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <a href="https://www.mississauga.ca/miway-transit/fares/fare-prices/">For more information about Miway Fares click here</a>
+    </div>
+
+    <br>
+
+    </tr>
+    <div class="transit-section" id="YRT">
+        <h2>YRT Fares</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Passenger Type</th>
+                    <th>Fare</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adults</td>
+                    <td>$3.88</td>
+                </tr>
+                <tr>
+                    <td>Children</td>
+                    <td>$3.03</td>
+                </tr>
+                <tr>
+                    <td>Seniors</td>
+                    <td>$2.40</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <a href="https://www.yrt.ca/en/fares-and-passes/fare-chart.aspx">For more information about YRT Fares click here</a>
+    </div>
+    <footer>
+        <h3> Humber Transit, &copy; Copyright 2023</h3>
+    </footer>
+</body>

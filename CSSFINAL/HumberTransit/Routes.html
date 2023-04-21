@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Routes</title>
+    <meta name="author" content="Simon" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Humber Transit" />
+    <meta name="keywords" content="HTML, CSS, Web Design" />
+    <link rel="stylesheet" href="styling/routes.css" type="text/css" />
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <script src="HumberTransit.js" defer></script>
+  </head>
+
+  <body>
+    <!-- common site elements -->
+    <header>
+      <img src="HumberColours/png/logo-no-background.png" alt="" />
+    </header>
+
+    <nav>
+      <ul id="navbar">
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="Routes.html">Routes</a></li>
+        <li class="nav"><a href="Fares.html">Fares</a></li>
+        <li class="nav"><a href="About.html">About Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- page specific elements - FARES -->
+    <main>
+      <!-- embedding google maps-->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.1217310256393!2d-79.60753568444277!3d43.72879797911882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3bad2b6a50e5%3A0xf410fa744688b971!2sHumber%20College%20Bus%20Terminal!5e0!3m2!1sen!2sca!4v1680050545957!5m2!1sen!2sca"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <!-- list of routes-->
+      <ul id="flexroutes">
+        <h1>TTC</h1>
+        <li class="ttc">
+          <a
+            href="https://www.ttc.ca/routes-and-schedules#/927/1/14722"
+            target="_blank"
+            ><span class="ttc">927</span> Highway Express</a
+          >
+        </li>
+        <li class="ttc">
+          <a
+            href="https://www.ttc.ca/routes-and-schedules#/996/1"
+            target="_blank"
+            ><span class="ttc">996</span> Wilson Express</a
+          >
+        </li>
+        <li class="ttc">
+          <a
+            href="https://www.ttc.ca/routes-and-schedules#/36/1"
+            target="_blank"
+            ><span class="ttc">36</span> Finch West</a
+          >
+        </li>
+        <li class="ttc">
+          <a
+            href="https://www.ttc.ca/routes-and-schedules#/96/0"
+            target="_blank"
+            ><span class="ttc">96</span> Wilson</a
+          >
+        </li>
+        <li class="ttc">
+          <a
+            href="https://www.ttc.ca/routes-and-schedules/336/0"
+            target="_blank"
+            ><span class="ttc">336</span> Finch West Night</a
+          >
+        </li>
+        <h1>Brampton Transit</h1>
+        <li class="bt">
+          <a
+            href="https://www.triplinx.ca/en/route-schedules/6/RouteSchedules/zum-steeles/514/511-zum-steeles-east-gtt-511-zum-steeles-eastbound/1"
+            target="_blank"
+            ><span class="zum">511</span> Zum Steeles</a
+          >
+        </li>
+        <li class="bt">
+          <a
+            href="https://www.triplinx.ca/en/route-schedules/6/RouteSchedules/steeles/465/11-steeles-eastbound-11-steeles-eb-gate-11a-steele/1"
+            target="_blank"
+            ><span class="bt">11</span> Steeles</a
+          >
+        </li>
+        <li class="bt">
+          <a
+            href="https://www.triplinx.ca/en/route-schedules/6/RouteSchedules/gore-road/509/50-gore-road-north-gore-meadows-community-centre/1"
+            target="_blank"
+            ><span class="bt">50</span> Gore Road</a
+          >
+        </li>
+        <h1>Miway</h1>
+        <li class="miway">
+          <a
+            href="https://www.triplinx.ca/en/route-schedules/6/RouteSchedules/finch/541/humber-college-blvd-at-etobicoke-hospital/1"
+            target="_blank"
+            ><span class="miway">22</span> Finch</a
+          >
+        </li>
+        <li class="miway">
+          <a
+            href="https://www.triplinx.ca/en/route-schedules/6/RouteSchedules/malton-express/528/humber-college-north-campus-platform-1-westwood-sq/1"
+            target="_blank"
+            ><span class="miway">187</span> Malton Express</a
+          >
+        </li>
+        <h1>YRT</h1>
+        <li class="yrt">
+          <a
+            href="https://tripplanner.yrt.ca/#/app/nextdepartures/routeheadway/full/007/SOUTHBOUND/YRT/"
+            ><span class="yrt">7</span> Martin grove</a
+          >
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
