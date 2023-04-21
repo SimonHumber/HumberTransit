@@ -17,6 +17,12 @@ header {
   margin: 0;
 }
 
+header h1 {
+  margin-top: 0px;
+  padding-top: 15px;
+  color: #f9cc0b;
+}
+
 body {
   margin: 0;
 }
@@ -24,7 +30,7 @@ body {
 /* nav bar formatting */
 
 nav {
-  height: 50px;
+  height: 44px;
 }
 
 ul#navbar {
@@ -133,6 +139,7 @@ li.nav a:hover {
 }
 .mySlides img {
   width: 50%;
+  margin-left: 420px;
 }
 
 @keyframes fade {
@@ -149,6 +156,7 @@ li.nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 70px;
 }
 .flexitem,
 .flexitem2 {
@@ -156,6 +164,8 @@ li.nav a:hover {
   height: 300px;
   width: 300px;
   position: relative;
+  color: #0c1d36;
+  text-align: center;
 }
 
 .flexbutton {
@@ -164,8 +174,23 @@ li.nav a:hover {
   left: 25%;
 }
 .flexbutton a {
-  padding: 25px;
-  background-color: blue;
+  padding: 20px;
+  background-color: #0c1d36;
   color: yellow;
   text-decoration: none;
+  text-align: center;
+}
+.flexbutton a:hover {
+  background-color: blue;
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #0c1d36;
+  color: #f9cc0b;
+  height: 70px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bolder;
 }
